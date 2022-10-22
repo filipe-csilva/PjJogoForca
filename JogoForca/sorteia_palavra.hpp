@@ -1,2 +1,3 @@
 #include <string>
-std :: string sorteia_palavra();
+
+std::string sorteia_palavra();

@@ -6,10 +6,8 @@
 
 void adiciona_palavra(){
     std::cout << "Digite a nova palavra, usando letras maiúsculas." << std::endl;
-    std::string nova_palavra,entrada;
+    std::string nova_palavra;
     std::cin >> nova_palavra;
-
-    /*nova_palavra = toupper(entrada);*/
 
     std::vector<std::string> lista_palavras = le_arquivo();
     lista_palavras.push_back(nova_palavra);
